@@ -1,0 +1,5 @@
+#include "tgaimage.h"
+
+TGAImage* new_TGAImage(const int w, const int h, const uint8_t bpp) {
+        TGAImage new = {w, h, bpp};
+}
