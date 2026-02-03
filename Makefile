@@ -1,5 +1,5 @@
 build: main.c
-	gcc main.c -o main
+	gcc tgaimage.c main.c -o main
 
 clean: main
 	rm main
