@@ -33,7 +33,7 @@ typedef struct {
         int w;
         int h;
         uint8_t bpp;
-	uint8_t data[];
+	uint8_t* data;
 } TGAImage;
 
 TGAImage* new_TGAImage(const int w, const int h, const uint8_t bpp);
